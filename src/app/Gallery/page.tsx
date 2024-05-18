@@ -15,8 +15,8 @@ const Gallery = () => {
             <div className="p-6" style={{marginBottom: "4%",marginTop: "5%", background: "black" }}>
               <Revealx>
                 <div className="mx-4">
-                  <p className="text-l md:text-3xl font-bold dark:text-white">Gallery</p>
-                  <p className="font-sans text-neutral-600 dark:text-neutral-200 mb-2 mt-2">Check out some awesome images of this region by certified photographers!</p>
+                  <p className="text-l md:text-3xl text-white font-bold dark:text-white">Gallery</p>
+                  <p className="font-sans text-white text-white-600 dark:text-white-200 mb-2 mt-2">Check out some awesome images of this region by certified photographers!</p>
                 </div>
                 </Revealx>
 

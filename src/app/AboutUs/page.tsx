@@ -11,8 +11,8 @@ const AboutUs = () => {
   return (
     <div>
       <NavHome/>      
-      <div className="Hero" style={{background: "black" }}>
-        <div className="p-6" style={{marginTop: "5%", background: "black" }}>
+      <div className="Hero py-3 p-6" style={{marginTop: "5%", background: "black" }}>
+        <div style={{background: "black" }}>
           <div className="mx-4">
             <Revealx>
               <div style={{marginBottom:"20%"}}>
