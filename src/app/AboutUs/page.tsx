@@ -16,8 +16,8 @@ const AboutUs = () => {
           <div className="mx-4">
             <Revealx>
               <div style={{marginBottom:"20%"}}>
-                <p className="text-2xl md:text-7xl font-bold dark:text-white">About Us</p>
-                <p className="font-sans font-bold text-neutral-600 dark:text-neutral-200 mb-2 mt-2">Check out the Sources of this Website and integrations!</p>
+                <p className="text-2xl md:text-7xl font-bold text-white dark:text-white">About Us</p>
+                <p className="font-sans font-bold text-white-600 dark:text-white-200 mb-2 mt-2">Check out the Sources of this Website and integrations!</p>
               </div>
             </Revealx>
           </div>
@@ -27,10 +27,10 @@ const AboutUs = () => {
           <div className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full  left-0 top-0">
             <Revealx>
               <div>
-                <h1 className="text-2xl md:text-7xl font-bold dark:text-white">
+                <h1 className="text-2xl md:text-7xl font-bold text-white dark:text-white">
                   Meet Our Team <br />
                 </h1>
-                <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
+                <p className="max-w-2xl text-base md:text-xl text-white mt-8 dark:text-neutral-200">
                   each member brings unique expertise and passion to our project
                 </p>
               </div>
