@@ -11,13 +11,13 @@ const AboutUs = () => {
   return (
     <div>
       <NavHome/>      
-      <div className="Hero">
+      <div className="Hero" style={{background: "black" }}>
         <div className="p-6" style={{marginTop: "5%", background: "black" }}>
           <div className="mx-4">
             <Revealx>
               <div style={{marginBottom:"20%"}}>
                 <p className="text-2xl md:text-7xl font-bold text-white dark:text-white">About Us</p>
-                <p className="font-sans font-bold text-white-600 dark:text-white-200 mb-2 mt-2">Check out the Sources of this Website and integrations!</p>
+                <p className="font-sans font-bold text-white dark:text-white-200 mb-2 mt-2">Check out the Sources of this Website and integrations!</p>
               </div>
             </Revealx>
           </div>
