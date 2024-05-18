@@ -12,10 +12,10 @@ const Gallery = () => {
     <div>
       <NavHome/>      
         <div className="Hero">
-            <div className="p-6" style={{marginBottom: "4%",marginTop: "5%", background: "black" }}>
+            <div style={{marginBottom: "4%", background: "black" }}>
               <Revealx>
-                <div className="mx-4">
-                  <p className="text-l md:text-3xl text-white font-bold dark:text-white">Gallery</p>
+                <div className="px-6 mx-6 my-5">
+                  <p className="text-2xl md:text-7xl font-bold text-white dark:text-white">Gallery</p>
                   <p className="font-sans text-white text-white-600 dark:text-white-200 mb-2 mt-2">Check out some awesome images of this region by certified photographers!</p>
                 </div>
                 </Revealx>
