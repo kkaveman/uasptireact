@@ -86,9 +86,9 @@ export const CardContainer = ({
             {children}
             {isExpanded && desc && (
             
-                <div className="mx-2 absolute bottom-12 left-0 right-0 bg-black z-[5] p-4 dark:bg-black rounded-b-xl shadow-lg">
+                <div className="mx-2 absolute bottom-12 left-0 right-0 z-[5] p-4 bg-white dark:bg-black rounded-b-xl shadow-lg">
                   <Revealx>
-                    <p className="z-[5] text-xs dark:text-white">{desc}</p>
+                    <p className="z-[5] text-xs text-black dark:text-white">{desc}</p>
                   </Revealx>
                   
                 </div>
