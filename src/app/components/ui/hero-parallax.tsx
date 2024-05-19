@@ -108,10 +108,11 @@ const Header = () => {
     <div className="max-w-7xl relative mx-auto pt-20 md:pt-40 px-4 w-full  left-0 top-0">
       <Revealx>
         <div>
-          <h1 className="text-2xl md:text-7xl font-bold dark:text-white">
+        
+          <h1 className="text-2xl md:text-7xl font-bold text-white dark:text-white">
             Inspired by <br /> Aceternity UI
           </h1>
-          <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
+          <p className="max-w-2xl text-base md:text-xl mt-8 text-white dark:text-white">
             Check out the processes and references for this web
           </p>
         </div>
