@@ -24,7 +24,7 @@ const BackgroundCondition = (props) => {
 
   const overlayTextStyle = {
     position: "absolute",
-    top: "30%",
+    top: "40%",
     left: "25%",
     transform: "translate(-50%, -50%)",
     color: "white",
@@ -45,10 +45,11 @@ const BackgroundCondition = (props) => {
   }
   
   return (
+
     <div>
       <div className="flex justify-center">
         <div style={blurStyle}>
-          <Image className="rounded-xl" src={imageSrc} alt="Weather" fill />
+          <Image className="rounded-3xl" src={imageSrc} alt="Weather" fill />
         </div>
       </div>
       
@@ -59,9 +60,14 @@ const BackgroundCondition = (props) => {
       {/* Overlay text */}
       <div style={overlayTextStyle} className="overlay-text">
         <Revealx>
-        <p>Current Weather Conditions</p>
-        <p>{props.temp}°C</p>
-        <p>{props.condition}</p>
+        <p>Current Weather Conditions :</p>
+        <div className="text-lg">
+           <p>{props.temp}°C</p>
+          <p>{props.condition}</p>
+          <p>({props.detailCondition})</p>
+          <p>{props.humidity}% Humidity</p>
+        </div>
+       
         </Revealx>
         
       </div>
