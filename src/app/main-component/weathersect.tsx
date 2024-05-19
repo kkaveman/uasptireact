@@ -38,6 +38,7 @@ export function Weather() {
     <div>
       <div className="py-5 flex justify-center">
         <Select
+        aria-label="Close"
         variant="bordered"
         color="default"
         onChange={handleSelectChange}

@@ -1,3 +1,5 @@
+// 3d-card.tsx
+
 "use client";
 
 import { cn } from "@/utils/cn";
@@ -81,19 +83,17 @@ export const CardContainer = ({
             style={{
               transformStyle: "preserve-3d",
               maxHeight: isExpanded ? "900px" : "400px",
+              width: "90%", // Add this line to set a narrower width
+              maxWidth: "600px", // Optionally, set a maximum width
             }}
           >
             {children}
             {isExpanded && desc && (
-            
-                <div className="mx-2 absolute bottom-12 left-0 right-0 z-[5] p-4 dark:bg-black rounded-b-xl shadow-lg">
-                  <Revealx>
-                    <p className="z-[5] text-xs text-black dark:text-white">{desc}</p>
-                  </Revealx>
-                  
-                </div>
-              
-              
+              <div className="mx-2 absolute bottom-12 left-0 right-0 z-[5] p-4 text-black dark:text-white bg-white dark:bg-black rounded-b-xl shadow-lg">
+                <Revealx>
+                  <p className="z-[5] text-xs text-black dark:text-white">{desc}</p>
+                </Revealx>
+              </div>
             )}
           </div>
         </div>
@@ -112,7 +112,7 @@ export const CardBody = ({
   return (
     <div
       className={cn(
-        "h-96 w-96 [transform-style:preserve-3d]  [&>*]:[transform-style:preserve-3d]",
+        "h-96 w-96 [transform-style:preserve-3d] [&>*]:[transform-style:preserve-3d]",
         className
       )}
     >
